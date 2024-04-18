@@ -1,0 +1,66 @@
+/*
+ * @Date: 2021-03-15 15:13:34 
+ * @Last Modified time: 2021-03-15 15:13:34 
+ */
+
+@font-face {
+    font-family: "PT Sans";
+    /* src: url("PTS55F.eot?") format("eot"), url("PTS55F.woff") format("woff"), url("PTS55F.ttf") format("truetype"), url("PTS55F.svg#PTSans-Regular") format("svg"); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, small {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 "PT Sans", "Helvetica Neue", Helvetica, Arial, 'Hiragino Sans GB', "Microsoft Yahei", "微软雅黑";
+    color: #555;
+}
+
+body {
+    text-align: inherit;
+}
+
+.nav li a, .nav li a:link, .nav li a:visited {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ibox .t {
+    font-size: 25px;
+}
+
+.kstd li a .iconbox {
+    height: 40px;
+    position: relative;
+    left: inherit;
+}
+
+.kstd li a .iconbox [class^="icon-"]:before, .kstd li a .iconbox [class*=" icon-"]:before {
+    line-height: 40px;
+}
+
+.kstd li a .iconbox img {
+    margin: 0;
+    max-width: 100%;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.kstd li a:hover {
+    height: 100px;
+    text-align: center;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    position: relative;
+    margin-top: -54px;
+    padding-left: 30px;
+}
+
+.kstd li a:hover .iconbox {
+    display: block;
+    /* position: relative; */
+}

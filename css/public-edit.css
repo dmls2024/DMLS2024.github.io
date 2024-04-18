@@ -1,0 +1,38 @@
+/*
+ * @Date: 2021-03-15 15:22:50 
+ * @Last Modified time: 2021-03-15 15:22:50 
+ */
+
+/* 自定义编辑  恢复默认样式*/
+.default-eidt ul li,
+.default-eidt ul {
+    list-style: disc inside;
+}
+ 
+.default-eidt ul,.default-eidt ol{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.default-eidt ol li,
+.default-eidt ol {
+list-style: decimal inside;
+}
+  
+.default-eidt img {
+    max-width: 100%;
+}
+.default-eidt i {
+    font-style: italic;
+}
+.default-eidt h1,
+.default-eidt h2,
+.default-eidt h3,
+.default-eidt h4,
+.default-eidt h5,
+.default-eidt h6 {
+    font-weight: bold;
+}
